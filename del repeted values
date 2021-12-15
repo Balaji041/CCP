@@ -1,0 +1,18 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    string s;
+    cin>>s;
+    int n=s.size(),hash[26]={};
+    for(int i=0;i<=n;i++){
+        int idx=s[i]-'a';
+        hash[idx]++;
+        if(hash[idx]==1){
+        cout<<s[i];
+    }
+    
+}
+}
+//
+dffgtthhk
+dfgthk
